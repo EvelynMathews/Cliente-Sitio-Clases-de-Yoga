@@ -1,0 +1,191 @@
+
+.container {
+	
+}
+
+body{
+
+	background-color: #fff199;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	/*background-color: #FFFFCC;*/
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+
+header h1{
+	font-family: 'Cabin Sketch', cursive;
+	margin-top: 0;
+	font-size: 400%;
+
+}
+.redes {
+	margin-left: 10px;
+}
+.redes:hover{
+	-webkit-filter: hue-rotate(180deg);
+	filter: brightness(-700%); 
+}
+
+title{
+	display: inline-flex;
+}
+.logo { 
+	display: inline-flex;
+        width: 15%;
+        height:15%;
+
+}
+
+/*NAV*/
+nav {
+	float: right;
+}
+.nav {
+	color: #FFCC99;
+
+}
+
+.nav ul{
+    border-width: 3px;
+}
+
+.dropdown-menu {
+	background-color: #FFFF99;
+}
+.nav-pills  li {
+	background-color: #FFFF99;
+
+}
+.nav-pills ul li:hover {
+	background-color: #FFCC99; 
+}
+ul li {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 180%;
+	border-style: dashed;
+    border-width: 2px;
+}
+
+a{
+	color: #000;
+
+
+}
+
+#contactBox{
+	display: flex;
+	float: right;
+}
+
+
+#picDocente{
+	display: flex;
+	 float: right;
+	 border-style: outset;
+	 border-width: 5px;
+	 transform: rotate(7deg);
+	 -ms-transform: rotate(-8deg); /* IE 9 */
+	  width:280px;
+	  height:250px;
+}
+
+/*SLIDER*/
+.carousel-caption h2{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 72px;
+}
+
+
+
+
+/*NOTAS DESTACADAS*/
+.destacadas {
+	display: flex;
+	flex-direction: column;
+
+}
+.destacadas h3 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 2em;	
+	padding: .2em 0;
+	text-align: center;
+	background-color:#FFFF66;
+		border-style: dashed;
+    border-width: 3px;
+    border-color:#FF9966;
+	
+}
+.thumbs {
+	align-self: center;
+}
+
+h3{
+	color:#000000;
+}
+/*FOOTER*/
+h4 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 2em;
+}
+.footer {
+	background-color: #FFFF99;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+/*.social {
+	float: right;
+	/*display: inline-block;*/
+
+
+#mySpan{
+	font-style: oblique;
+    background-color:#ffff96;
+    
+    box-shadow:20px 20px 50px #FFFF66;  
+}
+
+#mapaF{
+	width: 200px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+div #map {
+        height: 100%;
+      }
+
+.locales{
+		font-weight: bold;
+}
+
+#localesId{
+
+	display: flex;
+	flex-direction: row;
+box-shadow:20px 20px 50px 10px  #FFFF66 inset;  
+
+}
+
+.barrios{
+	display: flex;
+	align-content: space-around;
+}
+
+#linkMapa{
+	justify-content: center;
+
+}
+
+#vertical-bar {
+        border-left: 1px solid #ccc;
+        width:9px;
+        height:90px;
+    }
+
