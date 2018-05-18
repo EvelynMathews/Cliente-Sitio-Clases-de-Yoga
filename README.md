@@ -1,6 +1,7 @@
-# Sri School of Yoga (Website)
+# Sri School of Yoga (Website) 
 
-Maquetado de sitio Web para cliente.
+
+Maquetado de sitio Web para cliente. EN PROCESO.
 
 ## Sobre el proyecto.
 
